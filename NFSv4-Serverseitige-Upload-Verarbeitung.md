@@ -1,8 +1,5 @@
 # NFSv4: Serverseitige Upload-Verarbeitung mit systemd
 
-> Ergänzung zum NFSv4-Handbuch – Gespräch vom 19. November 2026, ab 08:57 Uhr.  
-> Format: Markdown, zur Bearbeitung mit Pulsar oder vi/vim und zur Versionierung mit Git.
-
 ## Ziel und Umgebung
 
 Auf dem NFSv4-Client werden Dateien in ein Upload-Verzeichnis geschrieben. Ein Dienst auf dem Server prüft regelmäßig, ob Dateien längere Zeit unverändert sind, und verschiebt sie in ein nicht über NFS freigegebenes Archiv.
